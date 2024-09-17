@@ -1,0 +1,38 @@
+*{
+    background-color: lightblue;
+}  
+
+.img{
+    float: left;
+
+}
+
+
+.grid-container  {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main';
+    gap: 5px;
+    background-color: #79b6e7;
+    padding: 14px;
+}
+
+.grid-container > div {
+    background-color: rgba(94, 174, 211, 0.8);
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+table, th, td {
+    border:1px solid rgb(10, 77, 82);
+}
+
+.blue {
+    background-color: rgb(38, 0, 252);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+}
