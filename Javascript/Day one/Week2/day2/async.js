@@ -12,7 +12,7 @@ function clock(){
     document.getElementById("clock").innerHTML =
     displayTime.getHours() + ":" +
     displayTime.getMinutes() + ":" +
-    displayTime.getSeconds();
+    displayTime.getSeconds() 
 }
 
 // setTimeout allows us to specify that a function is executed on a timer
@@ -79,8 +79,3 @@ async function awaitDisplayer(){
     });
     document.getElementById("awaitDisplay").innerHTML = await thisPromise;
 }
-
-// Create a function that triggers on a timeout
-
-// Create a clock displaying hours and minutes
-// Edit your clock so it only updates every other minute

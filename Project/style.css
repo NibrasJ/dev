@@ -74,6 +74,8 @@ body {
 }
 .dark-mode {
     background-color: black;
+    color: white;
+
 }
 
 
@@ -81,6 +83,9 @@ body {
 .container {
     position: relative;
     width: 35%;
+    content: "";
+    clear: both;
+    display: table;
 }
 .image {
     width: 100%;
@@ -112,3 +117,132 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:lightblue;
+    overflow: hidden;
+}
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #6404ff;
+    padding: 15px 57px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #2aeba4;
+    color: darkcyan;
+}
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+/* Three columns side by side */
+.column1 {
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+  /* Display the columns below each other instead of side by side on small screens */
+
+@media screen and (max-width: 650px) {
+    .column1 {
+        width: 100%;
+        display: block;
+    }
+}
+
+  /* Add some shadows to create a card effect */
+.card1 {
+    box-shadow: 0 1px 80px 0 rgb(255, 217, 0);
+}
+
+  /* Some left and right padding inside the container */
+.container1 {
+    padding: 0 10px;
+}
+
+  /* Clear floats */
+.container1::after, .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title1 {
+    color: grey;
+}
+
+.button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button1:hover {
+    background-color: #555;
+}
+
+
+html {
+    cursor: url(projectimages/soccer.jpg), auto;
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+    
+
+.column33 {
+    float: left;
+    width: 50%;
+}
+
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-decoration: none;
+}
+
+
