@@ -17,8 +17,9 @@ print(music_playlist)
 #view_playlist()
 
 # add an item with "songtitle4" as key and "name and genre" as its value
-music_playlist["Bath Song"] = { "Artist":"Cocomelon - Nursery Rhymes","genre":"childrens song"}
-print(music_playlist)
+def add_song():
+    music_playlist["Bath Song"] = { "Artist":"Cocomelon - Nursery Rhymes","genre":"childrens song"}
+    print(music_playlist)
 
 def view_playlist():
     for song in music_playlist:
@@ -28,10 +29,20 @@ def view_playlist():
 view_playlist()
 
 # change the value of
-
-music_playlist ["genre"] = "rock"
+def update_song():
+    music_playlist ["genre"] = ["rock"]
 
 print(music_playlist)
 
-print(music_playlist.pop('Artist'))
+# delete item key, value
+#def delete_song():
+#    del music_playlist["despacito"]
+
+song = input("Please Enter Your song: ")
+
+artist = input("Please Enter the artist: ")
+
+genre = input("Please Enter the song genre: ")
+print("Song, artist and genre: ", song, artist, genre)
+
 print(music_playlist)
