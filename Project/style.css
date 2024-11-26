@@ -72,11 +72,18 @@ table, th, td {
 body {
     color: black;
 }
-.dark-mode {
+.dark-mode *{
     background-color: black;
     color: white;
 
 }
+.dark-mode  *{
+    background-color: black;
+    color: white;
+
+}
+
+
 
 
 
@@ -246,3 +253,75 @@ div.scrollmenu a {
 }
 
 
+.messi th {
+    background-color:rgb(218, 27, 27);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style:solid;
+
+}
+
+.messi td  {
+    background-color:rgb(211, 145, 145);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(117, 5, 102);
+}
+
+.columnmessi{
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+.messiheader{
+    color:rgb(226, 82, 15);
+
+}
+
+.ronaldo th {
+    background-color:gold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style:solid;
+
+}
+
+.ronaldo td  {
+    background-color:rgb(245, 145, 215);
+    color: rgb(68, 0, 255);
+    text-align: center;
+}
+
+.columnronaldo{
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+.ronaldoheader{
+    color:rgb(255, 81, 0);
+
+}
+
+.qatar2022{
+    color:maroon;
+}
+
+
+.euro2024{
+    color:orangered;
+
+}
+
+.acon2024{
+    color:darkgreen;
+
+}
+
+.ca2024{
+    color:rgb(0, 140, 255);
+
+}

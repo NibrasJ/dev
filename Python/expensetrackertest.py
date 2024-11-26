@@ -31,7 +31,7 @@ Entertainment = {
 
 print("Hi and Welcome to expense tracker, this will help you track your daily expenses ")
 
-y = int(input("Enter your expense amount : "))
+y = int(input("Enter your expense amount : £"))
 if y > 0:
     print(f"£{y} is your expense amount ")
 else:
@@ -48,6 +48,8 @@ def my_food():
         y=input("Choose a fruit ")
         print(f"It costs {food[y]}")
 my_food()
+
+
 
 def my_modeoftransport():
     if x == ("Transport") or x == ("transport"):
