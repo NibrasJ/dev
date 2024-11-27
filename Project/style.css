@@ -414,3 +414,91 @@ div.scrollmenu a {
     color:rgb(0, 140, 255);
 
 }
+
+.columnqatar{
+    float: left;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.qatarheader{
+    color:maroon;
+
+}
+
+.qatar th {
+    background-color:maroon;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style:solid;
+
+}
+
+.qatar td  {
+    background-color:rgba(170, 56, 56, 0.952);
+    color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.columneuro{
+    float: left;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.euroheader{
+    color:green;
+
+}
+
+.euros th {
+    background-color:red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style:solid;
+
+}
+
+.euros td  {
+    background-color:yellow;
+    color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.columncopa{
+    float: left;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.copaheader{
+    color:white;
+
+}
+
+.copa th {
+    background-color:blue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style:solid;
+
+}
+
+.copa td  {
+    background-color:red;
+    color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
