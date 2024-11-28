@@ -135,7 +135,7 @@ body {
 .topnav a {
     float: left;
     color: #6404ff;
-    padding: 15px 57px;
+    padding: 15px 65px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -391,7 +391,7 @@ div.scrollmenu a {
 }
 
 .ronaldoheader{
-    color:rgb(255, 81, 0);
+    color:grey;
 
 }
 
@@ -502,3 +502,101 @@ div.scrollmenu a {
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
+
+
+
+
+
+
+  
+  img {
+    vertical-align: right;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .ronaldocontainer {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .ronaldocursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .ronaldoprev,
+  .next {
+    cursor: grab;
+    position: absolute;
+    top: 40%;
+    padding: 15px;
+    margin-top: -50px;
+    color: rgb(140, 0, 255);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10 3px 3px 10;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .ronaldoprev:hover,
+  .next:hover {
+    background-color: rgb(246, 0, 225);
+  }
+  
+  /* Number text (1/5 etc) */
+  .numbertext {
+    color: #ff0000;
+    font-size: 25px;
+    padding: 5px 5px;
+    position: absolute;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color:gold;
+    padding: 5px 15px;
+    color: rgb(222, 80, 180);
+  }
+  
+  .ronaldoorow:after {
+    content: "";
+    display: table;
+    clear: right;
+  }
+  
+  /* Six columns side by side */
+  .columncristiano {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.5;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+   /* Container for image text */
+   .caption-container-messi {
+    text-align: center;
+    background-color:rgb(218, 27, 27);
+    padding: 1px 5px;
+    color:  rgb(117, 5, 102);
+  }
